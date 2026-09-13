@@ -1,12 +1,12 @@
-WordPiece Tokenization
+**WordPiece Tokenization**
 
 A from-scratch implementation of WordPiece Tokenization using Python. This project demonstrates how words are split into subword units, how WordPiece scores are calculated, how the best subword pair is merged, and how the final tokens are converted into token IDs.
 
-Overview
+**Overview**
 
 WordPiece is a subword tokenization algorithm widely used in Natural Language Processing (NLP). Instead of representing every word as a single token, WordPiece can divide words into smaller subword units.
 
-For example:
+**For example:**
 
 played → play + ##ed
 
@@ -14,7 +14,7 @@ The "##" prefix indicates that the subword is a continuation of the previous tok
 
 This implementation demonstrates the basic WordPiece workflow from training data to final token IDs.
 
-Features
+**Features**
 
 - Training word frequency representation
 - Initial character-level token splitting
@@ -28,7 +28,7 @@ Features
 - Token-to-ID conversion
 - Unknown word handling using "[UNK]"
 
-Technologies Used
+**Technologies Used**
 
 - Python
 - Collections Counter
@@ -213,15 +213,15 @@ cd WordPiece-Tokenization
 
 python wordpiece_tokenizer.py
 
-Conclusion
+**Conclusion**
 
 This project provides a simple from-scratch implementation of WordPiece Tokenization using Python. It demonstrates the complete basic process of calculating token and pair frequencies, selecting the best pair using WordPiece scores, merging subwords, tokenizing new words, and converting tokens into numerical IDs.
 
 ---
 
-Author
+**Author**
 
-Aswini
+Aswini.S
 
 Computer Science with Artificial Intelligence
 

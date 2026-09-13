@@ -1,4 +1,4 @@
-#WordPiece Tokenization
+***WordPiece Tokenization***
 
 A from-scratch implementation of WordPiece Tokenization using Python. This project demonstrates how words are split into subword units, how WordPiece scores are calculated, how the best subword pair is merged, and how the final tokens are converted into token IDs.
 
